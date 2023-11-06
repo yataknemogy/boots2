@@ -1,0 +1,269 @@
+@font-face {
+    font-family: "Anonymous Pro";
+    src: url(fonts/AnonymousPro-Bold.ttf);
+    font-weight: 700;
+}
+@font-face {
+  font-family: "Anonymous Pro";
+  src: url(fonts/AnonymousPro-Regular.ttf);
+}
+html{
+  margin: 0;
+}
+h1 {
+  font-family: "Anonymous Pro", sans-serif;
+  font-size: 48px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+h2 {
+  font-family: "Anonymous Pro", sans-serif;
+	font-size: 48px;
+}
+h3{
+  color: var(--black, #121723);
+  font-family: Anonymous Pro;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; /* 48px */
+}
+.container {
+  padding-top: 32px;
+	margin: 0 auto;
+  max-width: 1160px;
+  width: 100%;
+}
+.card-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  align-items: flex-start;
+}
+.sneaker{
+  border-radius: 15px;
+  width: 370px;
+  background-color: white;
+}
+.sneaker2{
+  border-radius: 15px;
+  background-color: white;
+}
+.container-header{
+  padding: 30px 0 16px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1160px;
+  padding-right: 0px;
+}
+.container__text{
+  color: var(--black, #121723);
+  font-family: Anonymous Pro;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 24px;
+}
+.container__title{
+  color: var(--black, #121723);
+  font-family: Anonymous Pro;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-left: 24px;
+}
+.container__description{
+  color: var(--black, #121723);
+  font-family: Anonymous Pro;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 140% */
+  width: 506px;
+}
+.container__texts{
+  padding-left: 48px;
+}
+p {
+  font-family: "Anonymous Pro", sans-serif;
+  font-size: 14px;
+}
+.logo{
+  width: 212.34px;
+  height: 63.24px;
+}
+.header{
+  background-color: white;
+}
+.link{
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+  text-decoration: none;
+  gap: 24px;
+  color: #000;
+  font-family: Anonymous Pro;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  list-style-type: none;
+}
+.link a{
+  text-decoration: none;
+  color: inherit;
+}
+body{
+  background-color: #F1F1F1;
+  margin: 0;
+}
+.main{
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1160px;
+  margin-bottom: 30px;
+}
+.logo2 img{
+  width: 300px;
+  flex-shrink: 0;
+  margin-top: 32px;
+  margin-left: 288px;
+}
+.logo3 img{
+  width: 184px;
+  height: 16px;
+  left: 830px;
+  align-items: center;
+}
+.item6{
+  padding-bottom: 0px;
+}
+.footer{
+  background-color: #121723;
+  padding-bottom: 30px;
+  width: 100%;
+}
+.footer_logo2{
+  color: white;
+  font-family: "Russo One", sans-serif;
+  font-weight: 400;
+  font-size: 31px;
+}
+.footer_line{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.link2{
+  font-family: "Anonymous Pro", monospace;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  height: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-left: 0px;
+}
+.footer_logo{
+  color: #a1a6b4;
+  font-family: "Anonymous Pro", monospace;
+  text-align: center;
+  border-top: 1px solid #e6e8ec66;
+  margin-top: 30px;
+  padding-top: 16px;
+}
+.sneaker img{
+  width: 100%;
+}
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!-ANIMATION-!!!!!!!!!!!!!!!!!!!!!!!!!! */
+.sneaker{
+  overflow: hidden;
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: all 300ms;
+}
+.sneaker:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.sneaker img {
+  object-fit: cover;
+}
+.sneaker.container__text {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 4px;
+}
+.sneaker.container__title {
+  font-size: 17px;
+  color: #fff;
+}
+.mess, .nav_link1{
+  overflow: hidden;
+  position: relative;
+  transition: all 300ms;
+}
+.mess:hover, .nav_link1:hover {
+  transform: translateY(-2px);
+}
+.mess li, .nav_link1 a{
+  object-fit: cover;
+}
+.mess li, .nav_link a{
+  margin-bottom: 4px;
+}
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!-ANIMATION-!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+@media screen and (min-width: 769px) and (max-width: 1024px){
+  
+}
+@media screen and (min-width: 375px) and (max-width: 768px){
+  .main{
+    width: 350px;
+  }
+  .header{
+    display: flex;
+    max-width: 1024px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .container-header{
+    display: flex;
+    width: 375px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .link{
+    display: flex;
+    align-items: flex-start;
+    padding: 0px;
+  }
+  .footer_line{
+    flex-direction: column;
+  }
+  .link2{
+    padding-top: 32px;
+    padding-bottom: 24px;
+  }
+  .card-container{
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+  }
+  h1{
+    font-size: 32px;
+  }
+  .sneaker{
+    max-width: 110%;
+  }
+  .footer_logo{
+    font-size: 16px;
+    padding-top: 24px;
+  }
+  .container_main{
+    width: 100%;
+  }
+}
